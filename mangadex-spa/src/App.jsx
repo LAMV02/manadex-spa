@@ -1,15 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Search from "./pages/Search";
+import MangaDetail from "./pages/MangaDetail";
+import Navbar from "./components/Navbar";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-     <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-       <h1 className="text-4xl font-bold">¡MangaDex SPA funcionando! 🎉</h1>
-     </div>
+      
+      <BrowserRouter>
+      <Navbar />
+      <div className="p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/manga/:id" element={<MangaDetail />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+
+
   )
 }
 

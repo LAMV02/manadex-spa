@@ -25,13 +25,6 @@ Además, el proyecto busca simular una plataforma de lectura de mangas donde los
 - Visualizar los capítulos disponibles agrupados por idioma.
 - Filtrar fácilmente el contenido según su idioma preferido.
 
----
-
-## 🖼️ Vista previa
-
-(📸 Aquí puedes insertar una imagen o gif del proyecto funcionando)
-
----
 
 ## ⚙️ Cómo ejecutar el proyecto localmente
 

@@ -57,12 +57,12 @@ Abre `http://localhost:5173` (o el puerto que indique Vite) para ver la app.
 
 ```
 src/
-├── components/         # Componentes reutilizables (si los agregas)
-├── pages/              # Vistas principales (ej: MangaDetail.jsx)
+├── components/         # Componentes reutilizables 
+├── pages/              # Vistas principales 
 ├── App.jsx             # Componente raíz con rutas
 ├── main.jsx            # Punto de entrada de React
-├── assets/             # Recursos estáticos (imágenes, logos)
-└── styles/             # Archivos CSS (si no usas solo Tailwind)
+├── assets/             # Recursos estáticos
+└── styles/             # Archivos CSS 
 ```
 
 ---

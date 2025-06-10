@@ -12,7 +12,7 @@ export const getMangas = async () => {
     // Realiza la solicitud GET a la API
     const response = await axios.get(`${API_BASE}/manga`, {
       params: {
-        limit: 10,
+        limit: 20,
         order: {
             followedCount: "desc",
         },
